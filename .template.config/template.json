@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "David Pereira",
+  "classifications": ["Web", "API", "Microservices"],
+  "name": ".NET 5 Template with CQRS, ES and DDD",
+  "identity": "dotnet_template_onion",
+  "shortName": "dotnet_template_onion",
+  "tags": {
+    "language": "C#"
+  },
+  "sources": [
+    {
+      "modifiers": [
+        {
+          "exclude": [ ".vs/**", ".git/**", "README.md", "bin/**", "obj/**", "images/logo.jpg", "images/installation.jpg" ]
+        }
+      ]
+    }
+  ],
+  "sourceName": "Dotnet.Onion.Template",
+  "preferNameDirectory": true,
+  "symbols": {
+    "author": {
+      "type": "parameter",
+      "defaultValue": "David Pereira",
+      "replaces": "__PROJECT_AUTHOR__"
+    },
+    "description": {
+      "type": "parameter",
+      "defaultValue": ".NET 5 Template with CQRS, ES and DDD",
+      "replaces": "__PROJECT_DESCRIPTION__"
+    },
+    "namespace": {
+      "type": "parameter",
+      "defaultValue": "Dotnet.Onion.Template",
+      "replaces": "Dotnet.Onion.Template"
+    },
+    "version": {
+      "type": "parameter",
+      "defaultValue": "1.0.0",
+      "replaces": "99.99.99"
+    }
+  }
+}
