@@ -1,12 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
     <IsPackable>true</IsPackable>
+    <LangVersion>9</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Dotnet.Onion.Template.Domain\Dotnet.Onion.Template.Domain.csproj"/>
+    <ProjectReference Include="..\Dotnet.Onion.Template.Domain\Dotnet.Onion.Template.Domain.csproj" />
   </ItemGroup>
 
 </Project>
