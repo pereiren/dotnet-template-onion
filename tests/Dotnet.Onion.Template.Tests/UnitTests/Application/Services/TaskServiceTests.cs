@@ -46,10 +46,9 @@ namespace Dotnet.Onion.Template.Tests.UnitTests.Application.Services
 
             Assert.Equal("Summary", result.Summary);
             Assert.Equal("Description", result.Description);
-            Assert.Equal("tasks", result.Type);
 
             Assert.NotNull(result.Id);
-            Assert.NotNull(result.Links);
+            Assert.NotNull(result.Description);
 
             _mockITracer.Verify(x => x.BuildSpan(It.IsAny<string>()), Times.Once);
             _mockIMediator.Verify(x => x.SendAsync<Task>(It.IsAny<CreateNewTaskCommand>(), null), Times.Once);
