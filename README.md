@@ -7,13 +7,14 @@
 A .NET/.NET Core template to use Onion Architecture and DDD (Domain Driven Design) with CQRS and ES with a simple example on how to use all this architecture together from the Controller until the Repository class using Domain objects and different patterns.
 
 ### Documentation
-You can find information about this template in:
-* [Main Architecture](docs/ARCHITECTURE.md)
-* [Hexagonal Architecture](docs/HEXAGONAL.md)
-* [DDD](docs/DDD.md)
-* [CQRS AND ES](docs/CQRS-ES.md)
-* [SOLID](docs/SOLID.md)
 
+You can find information about this template in:
+
+- [Main Architecture](docs/ARCHITECTURE.md)
+- [Hexagonal Architecture](docs/HEXAGONAL.md)
+- [DDD](docs/DDD.md)
+- [CQRS AND ES](docs/CQRS-ES.md)
+- [SOLID](docs/SOLID.md)
 
 ### Prerequisites
 
@@ -25,7 +26,6 @@ https://dotnet.microsoft.com/download/dotnet/6.0
 
 This is just the version used by the template, if you need to use a newer or older one, you can do it manually after.
 
-
 ### Usage
 
 1. Clone this repository
@@ -35,7 +35,8 @@ This is just the version used by the template, if you need to use a newer or old
 dotnet new -i {{Path_where_you_cloned_the_repository}}
 ```
 
-*  Example: 
+- Example:
+
 ```
 dotnet new -i C:\GitLocal\dotnet-template-onion
 ```
@@ -46,7 +47,8 @@ dotnet new -i C:\GitLocal\dotnet-template-onion
 dotnet new -l
 ```
 
-* There should now be a new template **dotnet_template_onion**
+- There should now be a new template **dotnet_template_onion**
+
 ```
 Templates                                          Short Name                 Language          Tags
 ----------------------------------------------------------------------------------------------------------
@@ -59,12 +61,13 @@ Templates                                          Short Name                 La
 dotnet new dotnet_template_onion -n {{Namespace_of_your_project}} -o <outputFolder>
 ```
 
-* This will create the folder containing a solution and project folder.
-![](images/installation.jpg)
+- This will create the folder containing a solution and project folder.
+  ![](images/installation.jpg)
 
 And you are ready to go, you can use Visual Studio, Visual Studio Code or any other IDE to proceed with your coding.
 
 ### Structure of the template
+
 ```
 C:.
 │   .gitignore
@@ -176,4 +179,3 @@ C:.
 
 
 ```
-
