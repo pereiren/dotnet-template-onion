@@ -17,11 +17,11 @@ You can find information about this template in:
 
 ### Prerequisites
 
-#### .NET 5
+#### .NET 6
 
 Ensure you have the correct dotnet-core SDK installed for your system:
 
-https://dotnet.microsoft.com/download/dotnet/5.0
+https://dotnet.microsoft.com/download/dotnet/6.0
 
 This is just the version used by the template, if you need to use a newer or older one, you can do it manually after.
 
@@ -50,7 +50,7 @@ dotnet new -l
 ```
 Templates                                          Short Name                 Language          Tags
 ----------------------------------------------------------------------------------------------------------
-.NET Core 3.1 Template with CQRS, ES and DDD       dotnet_template_onion      [C#]              Web/API/Microservices
+.NET Core 6.0 Template with CQRS, ES and DDD       dotnet_template_onion      [C#]              Web/API/Microservices
 ```
 
 4. Create the .Net Core Solution
